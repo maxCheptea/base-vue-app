@@ -1,0 +1,9 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// TODO: put this code in a override file to restyle the main components accordingly
+.btn {
+  &-success {
+    border-radius: 0;
+  }
+}
